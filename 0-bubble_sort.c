@@ -12,7 +12,7 @@ void bubble_sort(int *array, size_t size)
 {
 	size_t i, j;
 
-	if (size > 2)
+	if (size >= 2)
 	{
 		for (i = 0; i < size - 1; i++)
 		{
@@ -26,11 +26,10 @@ void bubble_sort(int *array, size_t size)
 			}
 		}
 	}
-	return;
 }
 
 /**
- * swap - Swaps the value of a and b
+ * swap - swaps the value of a and b
  * @a: pointer to the first integer
  * @b: pointer to the second integer
  * Return: Nothing
