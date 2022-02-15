@@ -12,11 +12,12 @@ void quick_sort(int *array, size_t size)
 {
 	int low, high;
 
-	if (size < 2)
-		return;
-	low = 0;
-	high = size - 1;
-	quick_sort_array(array, low, high, size);
+	if (size >= 2)
+	{
+		low = 0;
+		high = size - 1;
+		quick_sort_array(array, low, high, size);
+	}
 }
 
 /**
