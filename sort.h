@@ -1,5 +1,5 @@
-#ifndef __SORTING__
-#define __SORTING__
+#ifndef SORTING
+#define SORTING
 
 #include <stddef.h>
 
